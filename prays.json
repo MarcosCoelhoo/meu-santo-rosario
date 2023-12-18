@@ -1,5 +1,56 @@
 {
-  "la": {},
+  "la": {
+    "intentions": {
+      "text": "Dive Iesu, tibi hoc sacellum offero, quod oro, contemplans mysteria nostrae Redemptionis. Da mihi per intercessionem Beatissimae Matris tuae Mariae, ad quam compello, virtutes quae sunt necessariae bene orare, et gratiam obtinere indulgentias huic sanctae devotionis annexas.",
+      "info": "As intenções são bem pessoais, faça um pedido, agradeça, ofereça suas próprias intenções.",
+      "name": "Intenções"
+    },
+    "signOfTheCross": {
+      "text": "In nomine Patris et Filii et Spiritus Sancti. Amen.",
+      "info": "",
+      "name": "Sinal da Cruz"
+    },
+    "creedInGodTheFather": {
+      "text": "Credo in Deum Patrem omnipotentem, Creatorem caeli et terrae, et in Jesum Christum, Filium ejus unicum, Dominum nostrum; quod conceptum est de virtute Spiritus Sancti; natus ex Maria Virgine, passus sub Pontio Pilato, crucifixus, mortuus et sepultus; descendit ad villulam mortuorum; tertia die resurrexit; ascendit ad caelos, sedet ad dextram Dei Patris omnipotentis, unde venturus est iudicare vivos et mortuos; Credo in Spiritum Sanctum, in sanctam Ecclesiam catholicam, in sanctorum communionem, in remissionem peccatorum, in resurrectionem carnis, in vitam aeternam. Amen.",
+      "info": "",
+      "name": "Creio em Deus Pai"
+    },
+    "ourFather": {
+      "text": "Pater Noster, qui es in caelis Sanctificétur nomen tuum, Advéniat regnum tuum, Fiat voluntas tua, sicut in caelo, et in terra. Panem nostrum quotidiánum da nobis hódie, et dimítte nobis débita nostra, sicut et nos dimíttimus debitóribus nostris. Et ne nos indúcas in tentatiónem. Sed líbera nos a malo. Amen.",
+      "info": "",
+      "name": "Pai Nosso"
+    },
+    "hailMary": {
+      "text": "Ave Maria, gratia plena, Dominus tecum, benedicta tu in mulieribus, et benedictus fructus ventris tui, Jesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.",
+      "info": "",
+      "name": "Ave Maria"
+    },
+    "gloryToTheFather": {
+      "text": "Gloria Patri et Filio et Spiritui Sancto. Sicut erat in principio et nunc et semper et in saecula saeculorum.",
+      "info": "",
+      "name": "Glória ao Pai"
+    },
+    "ohMyJesus": {
+      "text": "Domine Iesu, dimitte nobis, libera nos ab ignibus inferni. Omnes animas in caelum tolle et adiuva illas maxime quae maxime indigent",
+      "info": "",
+      "name": "Ó Meus Jesus"
+    },
+    "jaculatorys": {
+      "text": "O Maria sine peccato concepta, ora pro nobis ad te converte",
+      "info": "Jaculatórias são orações ou invocações bem curtas.",
+      "name": "Jaculatórias"
+    },
+    "prayerOfThanks": {
+      "text": "Infinitas tibi gratias agimus, princeps regina, pro beneficiis, quae ex tuis liberalibus manibus quotidie accipimus. Nunc et in sæcula sæculorum sub tua potenti protectione suscipere digneris. Et ut te ulterius demereamur, salutamus te cum Ave Regina",
+      "info": "",
+      "name": "Oração de agradecimento"
+    },
+    "saveTheQueen": {
+      "text": "Salve Regina, Mater misericordiae, vita, dulcedo et spes, nostra; Ad te clamamus exsules filii Evae, ad te suspiramus, gementes et clamantes in hac lacrimarum valle, sic advocatus noster, illos tuos ad nos oculos converte; et post hoc exilium ostende nobis Jesum, benedictum fructum ventris tui, o clemens, o pia, o dulcis semper virgo Maria. Ora pro nobis, Sancta Dei Genitrix. Ut digni efficiamur promissionibus Christi. Amen!",
+      "info": "",
+      "name": "Salve Rainha"
+    }
+  },
   "br": {
     "intentions": {
       "text": "Divino Jesus, eu vos ofereço este Terço, que vou rezar, contemplando os mistérios de nossa Redenção. Concedei-me, pela intercessão de Maria, vossa Mãe Santíssima, a quem me dirijo, as virtudes que me são necessárias para bem rezá-lo e a graça de ganhar as indulgências anexas a esta santa devoção.",

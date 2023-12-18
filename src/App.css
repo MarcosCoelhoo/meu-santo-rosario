@@ -38,20 +38,9 @@
 
 body {
   background: var(--bw-50);
-  /* height: 100vh; */
 }
 
-.header {
-  border-bottom: 2px solid var(--bw-100);
-  max-width: 62.5rem;
-  margin: 0 auto;
-  font-family: var(--font-title);
-  padding: 1rem 0.75rem;
-  font-weight: 700;
-  font-size: 2rem;
-  color: var(--principal-500);
-  margin-bottom: 2rem;
-}
+
 
 
 

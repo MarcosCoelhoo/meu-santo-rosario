@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './PrayBox.module.css';
-import dataPrays from '../../../prays.json';
 import infoIcon from '../../assets/info-icon.svg';
 import arrowIcon from '../../assets/arrow-icon.svg';
+import { LanguageContext } from '../../contexts/LanguageContext';
+
+import dataPrays from '../../../prays.json';
 
 const PrayBox = ({ prayData }) => {
   const [isOpen, setIsOpen] = React.useState(true);
+  const { language } = React.useContext(LanguageContext);
 
   const handleOpenPray = () => {
     setIsOpen(!isOpen);
@@ -24,7 +27,9 @@ const PrayBox = ({ prayData }) => {
         </div>
 
         <div className={styles.prayContent}>
-          <p className={styles.prayText}>{dataPrays.br[prayData.name].text}</p>
+          <p className={styles.prayText}>
+            {dataPrays[language][prayData.name].text}
+          </p>
 
           {dataPrays.br[prayData.name].info && (
             <div className={styles.infoBox}>

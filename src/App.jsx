@@ -4,17 +4,21 @@ import Hero from './components/hero/Hero';
 
 import Main from './components/main/Main';
 import { BrowserRouter } from 'react-router-dom';
+import Header from './components/header/Header';
+import { LanguageStorage } from './contexts/LanguageContext';
 
 function App() {
   return (
     <>
-      <header className="header">MSR</header>
+      <LanguageStorage>
+        <Header />
 
-      <Hero />
+        <Hero />
 
-      <BrowserRouter>
-        <Main />
-      </BrowserRouter>
+        <BrowserRouter>
+          <Main />
+        </BrowserRouter>
+      </LanguageStorage>
     </>
   );
 }
