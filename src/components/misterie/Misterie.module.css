@@ -1,0 +1,35 @@
+.container {
+  padding: 2rem 0.75rem;
+}
+
+.introductionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.misterieTitle {
+  font-family: var(--font-title);
+  color: var(--principal-500);
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.misterieDescription {
+  font-family: var(--font-text);
+  color: var(--bw-800);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.prayList {
+  /* border: 1px solid red; */
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+

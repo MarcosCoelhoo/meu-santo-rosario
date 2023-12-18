@@ -1,0 +1,63 @@
+
+
+.container {
+  border-radius: 4px;
+  background: var(--bw-200);
+}
+
+.prayHeader {
+  border-radius: 4px 4px 0 0;
+  background: var(--bw-50);
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerIcon {
+  transform: rotate(0deg);
+}
+
+.active .headerIcon {
+  transform: rotate(180deg);
+}
+
+.prayName {
+  font-family: var(--font-title);
+  font-size: 1.25rem;
+  color: var(--bw-950);
+  font-weight: 700;
+}
+
+.prayContent {
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  display: none;
+}
+
+.active .prayContent {
+  display: flex;
+}
+
+.prayText {
+  font-family: var(--font-text);
+  font-size: 1rem;
+  color: var(--bw-900);
+  font-weight: 500;
+}
+
+.infoBox {
+  display: flex;
+  gap: 4px;
+  color: var(--bw-400);
+}
+
+.infoText {
+  font-family: var(--font-text);
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--bw-500);
+  text-transform: lowercase;
+}

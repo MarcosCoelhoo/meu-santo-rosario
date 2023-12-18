@@ -1,0 +1,68 @@
+.navContainer {
+  display: flex;
+  max-width: 62.5rem;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+  gap: 1.5rem;
+  justify-content: space-between;
+  
+  padding-bottom: 1rem;
+  overflow-x: auto;
+
+}
+
+.navBox {
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: max-content;
+}
+
+.navBox::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: var(--principal-500);
+  transition: width .3s ease-in-out;
+} 
+
+.navBox .navDate {
+  padding: 4px 8px;
+  width: fit-content;
+  background: var(--bw-100);
+  color: var(--bw-400);
+  font-family: var(--font-text);
+  font-weight: 500;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.navBox .navTitle {
+  font-family: var(--font-title);
+  color: var(--bw-500);
+  font-size: 1.5rem;
+  pointer-events: none;
+}
+
+
+ .navBox:global(.active) .navDate,
+ .navBox.activeLink .navDate {
+  background: var(--principal-100);
+  color: var(--principal-600);
+}
+
+ .navBox:global(.active) .navTitle, 
+ .navBox.activeLink .navTitle {
+  color: var(--principal-600);
+}
+
+ .navBox:global(.active)::after,
+ .navBox.activeLink::after {
+  content: '';
+  width: 50%;
+  height: 2px;
+  background: var(--principal-500);
+} 
