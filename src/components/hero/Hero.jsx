@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Hero.module.css';
+import iconInsta from '../../assets/iconInsta.svg';
 
 const INTENTIONS = {
   first: [
@@ -59,6 +60,13 @@ const Hero = () => {
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>Meu Santo Rosário</h1>
+
+      <div className={styles.credits}>
+        <a href="https://www.instagram.com/mdev.web/">
+          Feito por Marcos Coelho
+        </a>
+        <img className={styles.creditIcon} src={iconInsta} alt="" />
+      </div>
 
       <div className={styles.carouselContainer}>
         <div className={styles.carouselWrapper}>

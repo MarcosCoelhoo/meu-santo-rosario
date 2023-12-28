@@ -14,14 +14,30 @@
   margin-bottom: 1.5rem;
 }
 
+.credits {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.credits a {
+  text-decoration: none;
+  font-family: var(--font-text);
+  color: var(--bw-400);
+  
+}
+
+.creditIcon {
+  max-width: 1.25rem;  
+}
+
 .carouselContainer {
-  /* border: 1px solid green; */
   max-width: 62.5rem;
   overflow: hidden;
   position: relative;
-  /* flex-direction: column;
-  align-items: start;
-  gap: 0.5rem; */
+ 
 }
 
 .carouselWrapper {
