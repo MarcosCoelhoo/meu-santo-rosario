@@ -10,7 +10,7 @@
 <h4 align="center">Website destinado àqueles que querem ter uma rotina de reza, especialmente àqueles que não sabem como começar a oração do Santo Rosário </h4>
 
 <p align="center">
-  <a href="https://meu-santo-rosario.vercel.app/" target="_blank">Clique para acessar<a/>
+  <a href="https://meu-santo-rosario.vercel.app/" target="_blank">Clique para acessar</a>
 </p>
   
 ## Design
